@@ -31,6 +31,7 @@ $(window).load(function () { // start initialize methods & events
 
 for(i = 1; i <= bingo.BINGO_MAX ; i++) { bingo.pool.push(i) }
 bingo.pool.shuffle();
+bingo.pool.shuffle(); // 2 times
 console.log(bingo.pool);
 
 $("#number").click(function(e){
