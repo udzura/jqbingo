@@ -1,0 +1,31 @@
+= FMS Bingo System
+
+== Spec
+
+* Requires Ruby ~> 1.9
+* Chrome browser
+
+== Install
+
+    $ git clone git://claris.fujisan.co.jp/sah2011-bingo.git
+    $ cd sah2011-bingo
+    $ bundle
+
+== Booting
+
+    $ rackup -p 3000
+
+Then open http://localhost:3000/bingo.html
+
+== UI Keybind
+
+* "r" button, to start/stop bingo
+* "F5" button, to reflesh
+
+== History
+
+* 2011-06-28 v.1.0
+
+== Copyright
+
+(c) 2011 Uchio Kondo <u-kondo@fujisan.co.jp>

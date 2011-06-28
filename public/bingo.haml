@@ -6,8 +6,24 @@
     %script{type: "text/javascript", src:"/app.js"}
     %link{rel: "stylesheet", type: "text/css", href: "/app.css"}
   %body
-    %h1 Bingo Game
-    %div#number 0
-    %hr
-    %div#chosen 　
+    %div#all
+      %h1
+        FMS
+        %span{style: "color: #a00"} Bingo
+        System
+        v.1.0, powered by
+        %a{href: "http://www.sinatrarb.com/"} Sinatra
+        &
+        %a{href: "http://jquery.com/"} jQuery
+      %div#left
+        %div#prev
+          %h2 前回
+          %div#prevvalue -
+        %div#prev2
+          %h2 前々回
+          %div#prevvalue2 -
+      %div#center
+        %div#number 0
+      %div#right
+        %div#chosen 　
 
