@@ -7,8 +7,8 @@
 
 == Install
 
-    $ git clone git://claris.fujisan.co.jp/sah2011-bingo.git
-    $ cd sah2011-bingo
+    $ git clone git://github.com/udzura/jqbingo.git
+    $ cd jqbingo
     $ bundle
 
 == Booting
@@ -28,4 +28,4 @@ Then open http://localhost:3000/bingo.html
 
 == Copyright
 
-(c) 2011 Uchio Kondo <u-kondo@fujisan.co.jp>
+(c) 2011 Uchio Kondo <udzura@udzura.jp>
