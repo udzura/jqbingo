@@ -14,6 +14,7 @@ role :app, "udzura.jp"                          # This may be the same as your `
 
 set :deploy_to, "/var/www/bingo"
 
+set :ruby_bin_path, "/usr/bin"
 
 # If you are using Passenger mod_rails uncomment this:
 namespace :deploy do
